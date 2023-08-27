@@ -13,7 +13,6 @@ public class TriggerRampController : MonoBehaviour
     {
         if (other == bola)
         {
-            //tambah skor kalau terkena bola
             scoreManager.AddScore(score);
         }
     }
